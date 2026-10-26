@@ -1,0 +1,24 @@
+{
+  "input_file": "E:\\learning-fundamentals\\fine-tuning\\unsloth-finetuning\\data\\raw\\train.jsonl",
+  "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+  "max_tokens": 2048,
+  "validation_ratio": 0.2,
+  "seed": 42,
+  "input_records_including_invalid": 51,
+  "valid_records_before_deduplication": 51,
+  "exact_duplicates_removed": 0,
+  "over_limit_records": 0,
+  "training_records": 41,
+  "validation_records": 10,
+  "rejected_records_total": 0,
+  "token_count_training": {
+    "min": 47,
+    "max": 121,
+    "mean": 68.12
+  },
+  "token_count_validation": {
+    "min": 54,
+    "max": 103,
+    "mean": 65.0
+  }
+}

@@ -1,0 +1,27 @@
+[project]
+name = "unsloth-finetuning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mohammad Rockeybul Alam", email = "opu.rockey@gmail.com" }
+]
+requires-python = ">=3.13.14"
+dependencies = []
+
+[project.scripts]
+unsloth-finetuning = "unsloth_finetuning:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.1",
+]
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.ruff.lint.isort]
+force-to-top = ["unsloth"]
